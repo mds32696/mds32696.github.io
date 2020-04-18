@@ -1,4 +1,4 @@
-var Hastings = L.map(map1).setView([50.914750, 0.488450], 6)
+var Hastings = L.map('Hastings Battlefield').setView([50.914750, 0.488450], 6)
 L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(map1)
 var 'Battle Site' = L.marker([50.914750, 0.488450]).addTo(map1)
 var 'Norman Invasion Route' = L.polygon([
